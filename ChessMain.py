@@ -166,7 +166,7 @@ def drawBoard(screen):
     The top left square is always light.
     """
     global colors
-    colors = [p.Color("white"), p.Color("gray")]
+    colors = [p.Color("#b58863"), p.Color("#f0d9b5")]
     for row in range(DIMENSION):
         for column in range(DIMENSION):
             color = colors[((row + column) % 2)]
